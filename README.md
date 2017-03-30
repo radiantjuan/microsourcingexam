@@ -6,6 +6,7 @@ PHP application exam
 to run this application please import the "tomatocake.sql" to the database that is found in /schema folder
 and you have to change this line of code inside app/config/development/database.php:
 
+# 
 public $default = array(
 	'datasource' => 'Database/Mysql',
 	'persistent' => false,
@@ -16,6 +17,7 @@ public $default = array(
 	'prefix' => '',
 	//'encoding' => 'utf8',
 );
+#
 
 also please include this to the vhost configuration:
 
