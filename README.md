@@ -1,3 +1,24 @@
+
+# microsourcingexam
+PHP application exam
+
+
+to run this application please import the "tomatocake.sql" to the database that is found in /schema folder
+and you have to change this line of code inside app/config/development/database.php:
+
+public $default = array(
+	'datasource' => 'Database/Mysql',
+	'persistent' => false,
+	'host' => 'localhost',
+	'login' => '',
+	'password' => '',
+	'database' => '',
+	'prefix' => '',
+	//'encoding' => 'utf8',
+);
+
+also please include this to the vhost configuration:
+
 ### Default username and password ###
 admin@tomatocake.php : p@55w0rd
 
